@@ -1,6 +1,6 @@
  # My Golang study plan
 1. Go
-    - [Pro Go][1] [ ]
+    - [Pro Go][1] [x]
     - [ThisIsIT][7] [ ]
     - [Thank Go! Golang на практике][2] [ ]
     - [Разработка веб-сервисов на Golang][3] [ ]
