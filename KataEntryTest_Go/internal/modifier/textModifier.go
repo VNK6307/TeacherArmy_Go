@@ -2,13 +2,14 @@ package modifier
 
 func TextModifier(input string) string {
 
-	textArray := textToCharArray(input)
-	textWithoutSpaces := deleteSpaces(textArray)
-	textChangedChars := changePlaces(textWithoutSpaces)
-	textWithoutPluses := changePluses(textChangedChars)
-	textWithProcessedDigits := processDigits(textWithoutPluses)
+	modifiedText := processDigits(
+		changePluses(
+			changePlaces(
+				deleteSpaces(
+					textToCharArray(input)))))
 
-	return string(textWithProcessedDigits)
+	return string(modifiedText)
+
 }
 
 func removeChars(slice []rune, i int) []rune {
