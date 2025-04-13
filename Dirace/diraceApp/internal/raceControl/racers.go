@@ -1,0 +1,5 @@
+package raceControl
+
+func GetRacer() {
+
+}
